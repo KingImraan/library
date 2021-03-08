@@ -24,9 +24,7 @@ const setupGuides = (data) => {
       const book = doc.data();
       const li = `
         <li>
-          <div class="collapsible-header grey lighten-4"> ${book.Title} <div> <span class="material-icons">
-          Available  </span> </div>
-          </div>
+          <div class="collapsible-header grey lighten-4"> ${book.Title} </div>
           
           <div class="collapsible-body white"> Description: ${book.Description} </div>
           <div class="collapsible-body white"> Author:${book.author} </div>
